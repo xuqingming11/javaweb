@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="test@localhost">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.19">
+    <root id="1">
+      <ServerVersion>5.6.10</ServerVersion>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <DefaultCasing>lower/lower</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="girls">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="my">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="mydata">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="6" parent="1" name="myemployees">
+      <Collation>gb2312_chinese_ci</Collation>
+    </schema>
+    <schema id="7" parent="1" name="mysql">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="8" parent="1" name="performance_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="9" parent="1" name="students">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="10" parent="1" name="tcp">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="11" parent="1" name="test">
+      <Current>1</Current>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="12" parent="1" name="xsglone">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+  </database-model>
+</dataSource>
